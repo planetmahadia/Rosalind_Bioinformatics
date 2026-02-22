@@ -1,5 +1,5 @@
 def transcribe(dna_sequence):
-    #Transcies DNA string into RNA by replacing all occurrences of T with U
+    #Transcribes DNA string into RNA by replacing all occurrences of T with U
     return dna_sequence.replace('T', 'U')
 
 sample_dna = 'GATGGAACTTGACTACGTAAATT'
